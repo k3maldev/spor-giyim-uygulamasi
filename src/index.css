@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'AvantGarde';
+  src: url('/ITCAvantGardeStd-MdObl.otf');
+}
+
+@layer components {
+  body {
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  .half-circle {
+    @apply rounded-bl-full rounded-br-full;
+  }
+}
