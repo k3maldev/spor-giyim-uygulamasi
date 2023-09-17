@@ -18,7 +18,7 @@ const Main = () => {
       </div>
       <div className='flex flex-col items-center gap-y-8 w-full'>
         <h1 className='font-logo text-[3rem]'>Simdi Popüler</h1>
-        <div className='w-full h-auto py-[50px] border-y border-gray-800 mb-[100px] grid grid-cols-1 md:grid-cols-2 gap-6 items-center overflow-y-scroll'>
+        <div className='w-full h-auto py-[50px] border-y border-gray-800 mb-[100px] grid grid-cols-1 md:grid-cols-2 gap-6 items-center'>
           <ProductBox
             title='Predator'
             image='/product.png'
